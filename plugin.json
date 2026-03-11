@@ -1,0 +1,16 @@
+{
+  "id": "com.twistedfish.emoji-picker",
+  "name": "TwistEdClaude Emoji Picker",
+  "main": "main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "changelogs": "changelogs.md",
+  "icon": "icon.png",
+  "author": {
+    "name": "TwistEdFish",
+    "email": "",
+    "github": "TwistEdFish"
+  },
+  "description": "A categorized emoji picker that inserts emojis at cursor position via a side button. Tap the 😊 side button to open the picker, tap any emoji to insert it.",
+  "minVersionCode": 320
+}
