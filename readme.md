@@ -24,7 +24,7 @@ A categorized emoji picker plugin for [Acode](https://acode.app) that inserts em
 
 ## Installation (local zip method)
 
-1. Download the `.zip` release from the [GitHub releases page](https://github.com/TwistEdFish/acode-emoji-picker/releases)
+1. Download the `.zip` release from the [GitHub releases page](https://github.com/TwistEdFish-Home/acode-emoji-picker/releases)
 2. In Acode → Settings → Plugins → tap the **+** icon
 3. Choose **Local** and select the `.zip` file
 
