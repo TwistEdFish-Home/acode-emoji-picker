@@ -4,9 +4,10 @@ A categorized emoji picker plugin for [Acode](https://acode.app) that inserts em
 
 ## Features
 
-- **Side button trigger** — tap the 🤓 button on the editor side panel to open the picker
+- **Header button trigger** — tap the Emoji🤓Picker above the editor window to open the picker
+- **Drag Tab** — Drag the Emoji Window anywhere on the screen out of your way
 - **Command palette** — search for "Emoji Picker" or press **Ctrl+Alt+E**
-- **10 categories** — Smileys, People, Animals, Nature, Food, Activities, Travel, Objects, Symbols, Flags
+- **10 categories** — 1906 emojis in Smileys, People, Animals, Nature, Food, Activities, and More
 - **Search** — type any keyword to filter across all categories
 - **Recently used** — your last 20 emojis appear at the top of every panel
 - **Inserts at cursor** — works exactly where you are in any open file
@@ -14,7 +15,7 @@ A categorized emoji picker plugin for [Acode](https://acode.app) that inserts em
 ## Usage
 
 1. Open any file in Acode
-2. Tap the **🤓** side button (right side of the editor)
+2. Tap the Emoji🤓Picker top button (centered above the editor window)
 3. Browse categories using the tab row, or type in the search bar
 4. Tap any emoji — it inserts immediately at your cursor position and the panel closes
 
@@ -45,7 +46,7 @@ A categorized emoji picker plugin for [Acode](https://acode.app) that inserts em
 
 ## Author
 
-**TwistEdFish** — built with Claude on an Amazon Fire HD 10 Plus tablet in Termux 🐟⚡
+**TwistEdFish** — built on an Amazon Fire HD 10 Plus tablet in Termux 🐟⚡
 
 ## License
 
