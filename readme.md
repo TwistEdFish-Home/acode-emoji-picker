@@ -1,53 +1,51 @@
-# TwistEdClaude Emoji Picker 🤓
+# TwistEdFish Emoji Picker
 
-A categorized emoji picker plugin for [Acode](https://acode.app) that inserts emojis at the cursor position in the active editor.
+A fast, categorized emoji picker for the Acode editor. Tap the **Emoji 🤓 Picker** button in the top bar to open the panel and tap any emoji to insert it at your cursor position.
+
+---
+
+<img src="emoji_picker_screenshot.png" alt="Emoji Picker Screenshot" style="max-width:600px;width:100%;">
+
+---
 
 ## Features
 
-- **Header button trigger** — tap the Emoji🤓Picker above the editor window to open the picker
-- **Drag Tab** — Drag the Emoji Window anywhere on the screen out of your way
-- **Command palette** — search for "Emoji Picker" or press **Ctrl+Alt+E**
-- **10 categories** — 1906 emojis in Smileys, People, Animals, Nature, Food, Activities, and More
-- **Search** — type any keyword to filter across all categories
-- **Recently used** — your last 20 emojis appear at the top of every panel
-- **Inserts at cursor** — works exactly where you are in any open file
+- **1,906 emojis** across 9 categories — Smileys, People, Animals, Nature, Food, Activities, Travel, Objects, Symbols, and Flags
+- **Favorites** — drag any emoji onto the ❤️ tab to save it. Drag a favorite outside the picker panel to remove it. Favorites persist across sessions.
+- **Search** — find emojis by keyword across all categories
+- **Recently Used** — quick-access strip of your last 20 inserted emojis (session only)
+- **Draggable panel** — drag the handle at the top to reposition the picker anywhere on screen
+- **Keyboard shortcut** — Ctrl+Alt+E to open/close
+- **Theme-aware** — uses Acode CSS variables for seamless dark and light theme compatibility
+- **Dual editor support** — works with both Ace and CodeMirror 6 editors
+
+---
 
 ## Usage
 
-1. Open any file in Acode
-2. Tap the Emoji🤓Picker top button (centered above the editor window)
-3. Browse categories using the tab row, or type in the search bar
-4. Tap any emoji — it inserts immediately at your cursor position and the panel closes
+### Opening the picker
+Tap the **Emoji 🤓 Picker** button in the Acode top bar, or press **Ctrl+Alt+E**.
 
-## Keyboard Shortcut
+### Inserting an emoji
+Tap any emoji to insert it at your cursor position. The panel closes automatically.
 
-`Ctrl + Alt + E` — toggle the emoji picker panel
+### Favorites
+Drag any emoji and drop it onto the ❤️ tab at the left of the category bar — the tab glows when ready to receive a drop. To remove a favorite, switch to the ❤️ tab, then drag the emoji outside the picker panel and release.
 
-## Installation (local zip method)
+### Search
+Type in the search bar to find emojis by keyword. Results update as you type.
 
-1. Download the `.zip` release from the [GitHub releases page](https://github.com/TwistEdFish-Home/acode-emoji-picker/releases)
-2. In Acode → Settings → Plugins → tap the **+** icon
-3. Choose **Local** and select the `.zip` file
+### Recently Used
+The top of each category view shows your last 20 inserted emojis for quick repeat access.
 
-## Categories
+---
 
-| Tab | Category |
-|-----|----------|
-| 😀 | Smileys & Emotion |
-| 👋 | People & Body |
-| 🐶 | Animals & Nature |
-| 🌸 | Plants & Weather |
-| 🍕 | Food & Drink |
-| ⚽ | Activities & Sports |
-| 🚗 | Travel & Places |
-| 💡 | Objects |
-| ❤️ | Symbols |
-| 🚩 | Flags |
+## Changelog
 
-## Author
+See [changelogs.md](changelogs.md) for full version history.
 
-**TwistEdFish** — built on an Amazon Fire HD 10 Plus tablet in Termux 🐟⚡
+---
 
 ## License
 
-MIT
+MIT — made with care by TwistEdFish
